@@ -19,7 +19,7 @@ class Network:
         try:
             self.client.connect(self.addr)
             data = self.client.recv(2048).decode()
-            print("Revieved: Color", data)
+            print("Recieved: Color", data)
             self.online = True
             return data
         except:
