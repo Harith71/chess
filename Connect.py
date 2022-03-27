@@ -15,7 +15,7 @@ class Network:
     def __init__(self):
         self.online = False
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.host = "127.0.0.1"
+        self.host = "Enter IP of server here"
         self.port = 5555
         self.addr = (self.host, self.port)
         self.id = self.connect()
