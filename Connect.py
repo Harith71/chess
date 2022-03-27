@@ -1,10 +1,3 @@
-"""
-- press f to find game.
-Initial connection:
-ready funstion
-Sending move:
-    only get moves for your color to make it faster
-"""
 import socket
 import ChessEngine
 import pickle
